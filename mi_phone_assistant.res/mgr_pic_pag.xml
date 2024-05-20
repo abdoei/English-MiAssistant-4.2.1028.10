@@ -4,12 +4,12 @@
   <TabLayout name="page_pic_tab" selectedid="0" height="573">
 	  <VerticalLayout height="573">
 		<HorizontalLayout height="40" bkimage="file='imgs/bg_paishelan.png'" >
-			<Option name="camera_op" height="30" width="80" selected="true" group="pic_options" text="相机(4)" font="12" textcolor="#9a9aa7" padding="30,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
-			<Option name="screen_op" height="30" width="80" group="pic_options"  text="截屏(4)" font="12" textcolor="#9a9aa7" padding="0,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
-			<Option name="download_op" height="30" width="80" group="pic_options"  text="下载(4)" font="12" textcolor="#9a9aa7" padding="0,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
-			<Option name="other_op" height="30" width="80" group="pic_options"  text="其它(4)" font="12" textcolor="#9a9aa7" padding="0,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
+			<Option name="camera_op" height="30" width="80" selected="true" group="pic_options" text="Camera(4)" font="12" textcolor="#9a9aa7" padding="30,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
+			<Option name="screen_op" height="30" width="80" group="pic_options"  text="Screen capture(4)" font="12" textcolor="#9a9aa7" padding="0,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
+			<Option name="download_op" height="30" width="80" group="pic_options"  text="Download(4)" font="12" textcolor="#9a9aa7" padding="0,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
+			<Option name="other_op" height="30" width="80" group="pic_options"  text="Other(4)" font="12" textcolor="#9a9aa7" padding="0,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
 			
-			<Label name="limit_pic_tip" text="最多操作500张，更多操作请打开mtp直接管理文件" padding="200,12,0,0" font="12" textcolor="#9a9aa7" height="16"/>
+			<Label name="limit_pic_tip" text="Maximum operations 500 files，Please open MTP. For manage files directly" padding="30,12,0,0" font="12" textcolor="#9a9aa7" height="16"/>
 			<Button name="fresh" visible="false" padding="430,12,0,0" font="15" width="20" height="16"
 		normalimage="file='imgs/ic_fresh.png'" hotimage="file='imgs/ic_fresh.png'" pushedimage="file='imgs/ic_fresh.png'"/>
 		</HorizontalLayout>
@@ -40,15 +40,15 @@
 		<HorizontalLayout height="47" bkimage="file='imgs/bg_paishelan.png' " >
 			<HorizontalLayout height="30"  align="left" padding="0,5,0,0">
 				<CheckBox name="all_pic" width="14" height="14" padding="29,8,2,8"/>
-				<Label text="全选" width="30" height="18"/>
+				<Label text="Select all" width="90" height="18"/>
 				<Control width="2" height="18" padding="2,6,2,0" bkimage="imgs\sp_1.png"/>
-				<Label text="已选中" width="42" height="18"/>
-				<Label name="select_num" text="9999" textcolor="#ff7e41" width="33" height="18"/>
-				<Label text="张图片" align="left" width="80" height="18"/>
+				<Label text="Selected" width="60" height="18"/>
+				<Label name="select_num" text="9999" textcolor="#ff7e41" width="50" height="18"/>
+				<Label text="Picture" align="left" width="80" height="18"/>
 				
-				<Button name="leading_in" text="添加本地图片" font="12" width="120" height="30" padding="306,0,5,0" />
-				<Button name="leading_out" text="导出" font="12" width="76" height="30" padding="0,0,5,0" />
-				<Button name="delete_video" text="删除" font="12" width="76" height="30" padding="0,0,5,0" />
+				<Button name="leading_in" text="Add local image" font="12" width="120" height="30" padding="170,0,5,0" />
+				<Button name="leading_out" text="Export" font="12" width="76" height="30" padding="0,0,5,0" />
+				<Button name="delete_video" text="Delete" font="12" width="76" height="30" padding="0,0,5,0" />
 			 </HorizontalLayout>
 		</HorizontalLayout>
 	  </VerticalLayout>
@@ -56,17 +56,17 @@
 		<!--等待图片加载-->
 		<VerticalLayout name="pic_loading">
 			<Control bkimage="file='imgs/ic_wait.png'" height="39" width="36" padding="0,12,5,0" />
-			<Label text="努力加载图片中，请稍等..." align="left" width="180" height="18"/>
+			<Label text="Try to load the image, please wait..." align="left" width="180" height="18"/>
 		</VerticalLayout>
 		<!--图片为空-->
 		<VerticalLayout name="pic_empty">
 			<Control bkimage="file='imgs/ic_unlink.png'" height="151" width="120" padding="0,12,5,0" />
-			<Label text="您还没有连接设备，请链接..." align="left" width="180" height="18"/>
+			<Label text="You have not connected the device yet, please connect..." align="left" width="180" height="18"/>
 		</VerticalLayout>
 		<!--图片展示-->
 		<VerticalLayout name="pic_show">
 			<Control bkimage="file='imgs/ic_no_pic.png'" height="120" width="120" padding="0,12,5,0" />
-			<Label text="这里没有图片哦！" align="left" width="180" height="18"/>
+			<Label text="There are no pictures here!" align="left" width="180" height="18"/>
 		</VerticalLayout>	  
 	</TabLayout>
 </Window>

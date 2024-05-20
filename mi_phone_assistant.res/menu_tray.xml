@@ -5,23 +5,23 @@
 <VerticalLayout bkimage="file='imgs/bg_menu.png' source='2,5,114,157'">  
     <List bordercolor="#dcdee1" bordersize="9" header="hidden" inset="8,8,8,8" itemhotimage="file='imgs/menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#F2F2F2">  
         <ListContainerElement name="set_item" height="35" width="200" padding="1,1,1,1" inset="20,0,0,0">  
-			<Label text="设置" textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+			<Label text="Setting" textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
         </ListContainerElement>  
 		
 		<ListContainerElement name="help_item" height="35" padding="1,0,1,0" inset="20,0,0,0" >  
-            <Label text="帮助"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+            <Label text="Help"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
         </ListContainerElement>  
 		
         <ListContainerElement name="update_item" height="35" padding="1,0,1,0" inset="20,0,0,0">  
-            <Label text="检查更新" textcolor="#444c58" mouse="false"  padding="11,0,0,0"/>  
+            <Label text="Check for updates" textcolor="#444c58" mouse="false"  padding="11,0,0,0"/>  
         </ListContainerElement>  
 		
 		<ListContainerElement name="about_item" height="35" padding="1,0,1,1" inset="20,0,0,0" >
-            <Label text="关于我们"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+            <Label text="About as"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
         </ListContainerElement> 
 		
 		<ListContainerElement name="exit_item" height="35" padding="1,0,1,1" inset="20,0,0,0" >
-            <Label text="退出"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+            <Label text="Exit"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
         </ListContainerElement> 
     </List>  
 </VerticalLayout> 

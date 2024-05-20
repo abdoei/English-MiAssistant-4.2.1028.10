@@ -3,7 +3,7 @@
   <Include source="style.xml" />
   <VerticalLayout >
 	  <VerticalLayout height="32" bkimage="imgs/bg_tip.png" padding="1,0,1,0">
-				<Label text="提示:恢复过程中请尽量临时关闭QQ以及其它手机助手类工具" height="32" textcolor="#ffb040" bkcolor="#fef0db" bordercolor="#fef0db"/>
+				<Label text="Tip: Please try to temporarily close QQ and other mobile assistant tools during the recovery process." height="32" textcolor="#ffb040" bkcolor="#fef0db" bordercolor="#fef0db"/>
 	  </VerticalLayout>
 	  
 	  <VerticalLayout name="bg" bkimage="file='imgs/bg_big.png' source='29,140,900,600'" height="541" >
@@ -14,11 +14,11 @@
 			<HorizontalLayout width="305"/>
 			<Control bkimage="imgs\cloud.png" height="105" width="172" />
 			<VerticalLayout padding="75,0,1,0" childalign="left">
-				<Label name="guide_tip" text="请选择文件进行数据恢复" textcolor="#444c58" font="19" align="left" height="25"/>
-				<Button name="guide_select_dir" align="left" text="{u}选择其它备份文件{/u}" showhtml="true" textcolor="#8b94a5" padding="0,0,0,0" font="14" height="30" width="135" normalimage="" hotimage="" pushedimage=""/>
+				<Label name="guide_tip" text="Please select a file for data restore" textcolor="#444c58" font="19" align="left" height="25"/>
+				<Button name="guide_select_dir" align="left" text="{u}Choose another backup file{/u}" showhtml="true" textcolor="#8b94a5" padding="0,0,0,0" font="14" height="30" width="135" normalimage="" hotimage="" pushedimage=""/>
 				<HorizontalLayout height="48">
-					<Button name="next_step" text="恢复到手机" textcolor="#444c58" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
-					<Button name="open_set_dir" text="导出到本地" textcolor="#444c58" padding="30,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
+					<Button name="next_step" text="Next step" textcolor="#444c58" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
+					<Button name="open_set_dir" text="Export to local" textcolor="#444c58" padding="30,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
 				</HorizontalLayout>
 			</VerticalLayout>
 		</HorizontalLayout>
@@ -28,11 +28,11 @@
 			<HorizontalLayout width="305"/>
 			<Control bkimage="imgs\cloud.png" height="105" width="172" />
 			<VerticalLayout padding="75,0,1,0" childalign="left">
-				<Label name="select_tip" text="请选择要备份的数据" textcolor="#444c58" font="19" align="left" height="25"/>
-				<Label name="select_time" text="预计需要30分钟" align="left" textcolor="#8b94a5" padding="0,0,0,0" font="14" height="30"  />
+				<Label name="select_tip" text="Please select the data to be backed up" textcolor="#444c58" font="19" align="left" height="25"/>
+				<Label name="select_time" text="Expected need 30 minute" align="left" textcolor="#8b94a5" padding="0,0,0,0" font="14" height="30"  />
 				<HorizontalLayout height="48">
-					<Button name="start_restore" text="开始恢复" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
-					<Button name="back_select" text="返回" textcolor="#444c58" padding="30,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
+					<Button name="start_restore" text="Start restore" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
+					<Button name="back_select" text="return" textcolor="#444c58" padding="30,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
 				</HorizontalLayout>
 				</VerticalLayout>
 		</HorizontalLayout>
@@ -46,9 +46,9 @@
 				<Label text="%" font="19" textcolor="#1cb95f" float="true" pos="110,70,130,100" />
 			</VerticalLayout>
 			<VerticalLayout padding="67,35,1,0" childalign="left" >
-				<Label text="恢复过程中，请勿断开连接" textcolor="#444c58" font="19" align="left" height="25"/>
-				<Label name="ing_time" text="预计需要30分钟" align="left" textcolor="#8b94a5" padding="0,0,0,0" font="14" height="30"  />
-				<Button name="restore_cancel" text="取消" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" normalimage="file='imgs/btn_gray_n_click_p.png' source='0,0,126,38' corner='5,5,5,5'" hotimage="file='imgs/btn_gray_n_click_p.png' source='126,0,252,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_gray_n_click_p.png' source='252,0,378,38' corner='5,5,5,5'"/>
+				<Label text="Do not disconnect during recovery" textcolor="#444c58" font="19" align="left" height="25"/>
+				<Label name="ing_time" text="Expected need 30 minute" align="left" textcolor="#8b94a5" padding="0,0,0,0" font="14" height="30"  />
+				<Button name="restore_cancel" text="Cancel" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" normalimage="file='imgs/btn_gray_n_click_p.png' source='0,0,126,38' corner='5,5,5,5'" hotimage="file='imgs/btn_gray_n_click_p.png' source='126,0,252,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_gray_n_click_p.png' source='252,0,378,38' corner='5,5,5,5'"/>
 			</VerticalLayout>
 		</HorizontalLayout>
 		
@@ -57,10 +57,10 @@
 			<HorizontalLayout width="305"/>
 			<Control bkimage="file='imgs/icon_back_succ.png'" height="118" width="118" />
 			<VerticalLayout padding="75,10,0,0" childalign="left">
-				<Label name="succ_tip" text="选择要备份的数据" textcolor="#444c58" font="19" align="left" height="25"/>
+				<Label name="succ_tip" text="Select the data for back up" textcolor="#444c58" font="19" align="left" height="25"/>
 				<!--备份中 4-->
-				<Label text="恭喜您，数据恢复成功！" align="left" textcolor="#8b94a5" font="14" height="30"/>
-				<Button name="succ_ok" text="完成" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_green_n_click_p_d.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_green_n_click_p_d.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_green_n_click_p_d.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_green_n_click_p_d.png' source='468,0,624,38' corner='5,5,5,5'"/>
+				<Label text="Congratulations, the data recovery is successful!" align="left" textcolor="#8b94a5" font="14" height="30"/>
+				<Button name="succ_ok" text="Complete" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_green_n_click_p_d.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_green_n_click_p_d.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_green_n_click_p_d.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_green_n_click_p_d.png' source='468,0,624,38' corner='5,5,5,5'"/>
 			</VerticalLayout>
 		</HorizontalLayout>
 		
@@ -69,9 +69,9 @@
 			<HorizontalLayout width="305"/>
 			<Control bkimage="file='imgs/icon_back_err.png'" height="118" width="118" />
 			<VerticalLayout padding="75,10,1,0" childalign="left" >
-				<Label name="err_tip" text="已选择数据15G" textcolor="#444c58" font="19" align="left" height="25"/>
-				<Label name="err_msg" text="手机空间不足，请重新选择恢复文件或清理手机空间" align="left" textcolor="#f16362" font="14" height="30" />
-				<Button name="re_select_file" text="重新选择备份文件" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" normalimage="file='imgs/btn_red_n_click_p_d.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_red_n_click_p_d.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_red_n_click_p_d.png' source='312,0,468,38' corner='5,5,5,5'"/>
+				<Label name="err_tip" text="Selected data 15G" textcolor="#444c58" font="19" align="left" height="25"/>
+				<Label name="err_msg" text="There is not enough space on your phone. Please choose to restore files or clean up your phone space." align="left" textcolor="#f16362" font="14" height="30" />
+				<Button name="re_select_file" text="Reselect backup file" padding="0,10,0,0" font="15" height="38" width="156" textcolor="#ffffff" normalimage="file='imgs/btn_red_n_click_p_d.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_red_n_click_p_d.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_red_n_click_p_d.png' source='312,0,468,38' corner='5,5,5,5'"/>
 			</VerticalLayout>
 		</HorizontalLayout>
       </TabLayout>
@@ -80,7 +80,7 @@
 		
 		<!--选择备份文件夹-->
 		<VerticalLayout name="restore_dir_select" padding="0,0,0,0" height="242" width="730" visible="true">
-			<Label text="请选择一个备份文件进行恢复" font="14" textcolor="#8b94a5" align="left"/>
+			<Label text="Please select a backup file to restore" font="14" textcolor="#8b94a5" align="left"/>
 			<List name="dir_select_list" padding="0,0,0,0" bordercolor="#000000" itemhlinecolor="#FFFFFF" height="212" width="730" >
 				<ListHeader height="1">
 					<!--版本详细英文名-->
@@ -99,10 +99,10 @@
 		<!--选择要备份的文件-->
 		<VerticalLayout name="select_package_layout" height="300" width="720" visible="true" padding="135">
 			<HorizontalLayout height="30" width="720" >
-				<Label text="选择要恢复的数据" textcolor="#8b94a5"  width="672" align="left"/>
+				<Label text="Select the data for restore" textcolor="#8b94a5"  width="672" align="left"/>
 				<HorizontalLayout  childalign="right" width="48">
 					<CheckBox name="set_auto_checkbtn" width="14" height="14" />
-					<Label name="set_auto_text" text="全选" textcolor="#8b94a5" width="30" height="18" padding="5"/>
+					<Label name="set_auto_text" text="select all" textcolor="#8b94a5" width="30" height="18" padding="5"/>
 				</HorizontalLayout>
 			</HorizontalLayout>
 			
@@ -114,7 +114,7 @@
 						<Control bkimage="file='imgs\icon_sms.png' source='44,0,88,42'"  height="42" width="44" />
 						<HorizontalLayout  childalign="left" height="18">
 							<CheckBox name="sms_checkbtn" padding="43,0,0,0" width="14" height="14" />
-							<Label name="sms_text" text="短信" width="80" height="18" textcolor="#8b94a5" align="left" padding="5"/>
+							<Label name="sms_text" text="SMS" width="80" height="18" textcolor="#8b94a5" align="left" padding="5"/>
 						</HorizontalLayout>
 					</VerticalLayout>
 				</HorizontalLayout>
@@ -124,7 +124,7 @@
 						<Control bkimage="file='imgs\icon_contacts.png' source='44,0,88,42'"  height="42" width="44" />
 						<HorizontalLayout  childalign="left" height="18">
 							<CheckBox name="contacts_checkbtn" padding="38,0,0,0" width="14" height="14" />
-							<Label name="contacts_text" text="联系人" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
+							<Label name="contacts_text" text="Contacts" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
 						</HorizontalLayout>
 					</VerticalLayout>
 				</HorizontalLayout>
@@ -134,7 +134,7 @@
 						<Control bkimage="file='imgs\icon_call_log.png' source='44,0,88,42'"  height="42" width="44" />
 						<HorizontalLayout  childalign="left" height="18">
 							<CheckBox name="call_log_checkbtn" padding="20,0,0,0" width="14" height="14" />
-							<Label name="call_log_text" text="通信记录" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
+							<Label name="call_log_text" text="Call" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
 						</HorizontalLayout>
 					</VerticalLayout>
 				</HorizontalLayout>
@@ -144,9 +144,9 @@
 						<Control bkimage="file='imgs\icon_system.png' source='44,0,88,42'"  height="42" width="44" />
 						<HorizontalLayout  childalign="left" height="18">
 							<CheckBox name="system_checkbtn" padding="10,0,0,0" width="14" height="14" />
-							<Label name="system_text" text="系统应用" textcolor="#8b94a5" height="18" align="left" padding="5"/>
+							<Label name="system_text" text="System app" textcolor="#8b94a5" height="18" align="left" padding="5"/>
 						</HorizontalLayout>
-						<Button name="system_set" text="{u}设置{/u}" showhtml="true" textcolor="#8b94a5" hottextcolor="#777777" pushedtextcolor="#555555" padding="0,0,0,0" font="14" height="30" width="66" normalimage="" hotimage="" pushedimage=""/>
+						<Button name="system_set" text="{u}Setting{/u}" showhtml="true" textcolor="#8b94a5" hottextcolor="#777777" pushedtextcolor="#555555" padding="0,0,0,0" font="14" height="30" width="66" normalimage="" hotimage="" pushedimage=""/>
 					</VerticalLayout>
 				</HorizontalLayout>
 				
@@ -155,9 +155,9 @@
 						<Control bkimage="file='imgs\icon_app.png' source='44,0,88,42'"  height="42" width="44" />
 						<HorizontalLayout  childalign="left" height="18">
 							<CheckBox name="app_checkbtn" padding="10,0,0,0" width="14" height="14" />
-							<Label name="app_text" text="三方应用" textcolor="#8b94a5" height="18" align="left" padding="5"/>
+							<Label name="app_text" text="Third-party app" textcolor="#8b94a5" height="18" align="left" padding="5"/>
 						</HorizontalLayout>
-						<Button name="app_set" text="{u}设置{/u}" showhtml="true" textcolor="#8b94a5" hottextcolor="#777777" pushedtextcolor="#555555" padding="0,0,0,0" font="14" height="30" width="66" normalimage="" hotimage="" pushedimage=""/>
+						<Button name="app_set" text="{u}Setting{/u}" showhtml="true" textcolor="#8b94a5" hottextcolor="#777777" pushedtextcolor="#555555" padding="0,0,0,0" font="14" height="30" width="66" normalimage="" hotimage="" pushedimage=""/>
 					</VerticalLayout>
 				</HorizontalLayout>
 			</HorizontalLayout>
@@ -168,7 +168,7 @@
 						<Control bkimage="file='imgs\icon_pic.png' source='44,0,88,42'"  height="42" width="44" />
 						<HorizontalLayout  childalign="left" height="18">
 							<CheckBox name="pic_checkbtn" padding="38,0,0,0" width="14" height="14" />
-							<Label name="pic_text" text="图片" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
+							<Label name="pic_text" text="Image" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
 						</HorizontalLayout>
 					</VerticalLayout>
 				</HorizontalLayout>
@@ -178,7 +178,7 @@
 						<Control bkimage="file='imgs\icon_vido.png' source='44,0,88,42'"  height="42" width="44" />
 						<HorizontalLayout  childalign="left" height="18">
 							<CheckBox name="video_checkbtn" padding="38,0,0,0" width="14" height="14" />
-							<Label name="video_text" text="视频" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
+							<Label name="video_text" text="Video" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
 						</HorizontalLayout>
 					</VerticalLayout>
 				</HorizontalLayout>
@@ -188,7 +188,7 @@
 						<Control bkimage="file='imgs\icon_music.png' source='44,0,88,42'"  height="42" width="44" />
 						<HorizontalLayout  childalign="left" height="18">
 							<CheckBox name="music_checkbtn" padding="38,0,0,0" width="14" height="14" />
-							<Label name="music_text" text="音乐" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
+							<Label name="music_text" text="Music" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
 						</HorizontalLayout>
 					</VerticalLayout>
 				</HorizontalLayout>
@@ -198,7 +198,7 @@
 						<Control bkimage="file='imgs\icon_doc.png' source='44,0,88,42'"  height="42" width="44" />
 						<HorizontalLayout  childalign="left" height="18">
 							<CheckBox name="doc_checkbtn" padding="38,0,0,0" width="14" height="14" />
-							<Label name="doc_text" text="文档" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
+							<Label name="doc_text" text="Docs" textcolor="#8b94a5" width="80" height="18" align="left" padding="5"/>
 						</HorizontalLayout>
 					</VerticalLayout>
 				</HorizontalLayout>
@@ -207,7 +207,7 @@
 						<Control bkimage="file='imgs\wechat1.png'"  height="32" width="38" padding="0,5,0,0" />
 						<HorizontalLayout  childalign="left" height="18" padding="0,5,0,0">
 							<CheckBox name="chat_checkbtn" padding="18,0,0,0" width="14" height="14" />
-							<Label name="chat_text" text="微信聊天记录" textcolor="#8b94a5" height="18" align="left" padding="5"/>
+							<Label name="chat_text" text="WeChat chat history" textcolor="#8b94a5" height="18" align="left" padding="5"/>
 						</HorizontalLayout>
 					</VerticalLayout>
 				</HorizontalLayout>

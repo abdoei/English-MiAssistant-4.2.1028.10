@@ -4,7 +4,7 @@
   <VerticalLayout width="573">
 	  <HorizontalLayout height="20" width="573" childalign="left">
 		<CheckBox name="select_all" align="left" valign="top" width="20" height="20" />
-		<Label name="layout_title" text="图片" textcolor="#8b94a5" width="100" height="18" align="left"/>
+		<Label name="layout_title" text="image" textcolor="#8b94a5" width="100" height="18" align="left"/>
 	  </HorizontalLayout>
 	  
 	  <VerticalLayout name="item_layout" width="573">

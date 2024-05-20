@@ -4,7 +4,7 @@
   <VerticalLayout name="bg" bkimage="file='imgs/bg_update_2.png'" childalign="center" align="center">
 	<HorizontalLayout height="35" padding="5,3,5,5" childalign="right" >
 		<Control height="13" width="20"  padding="10,0,0,0"/>
-		<Label text="小米助手" textcolor="#ffffff" align="left" padding="5,5,5,0"/>
+		<Label text="Xiaomi assistant" textcolor="#ffffff" align="left" padding="5,5,5,0"/>
 		
 		<Button name="minbtn" width="11" height="11" 
 		normalimage="file='imgs/min_update_n_click_p.png' source='0,0,11,11'" hotimage="file='imgs/min_update_n_click_p.png' source='11,0,22,11'" pushedimage="file='imgs/min_update_n_click_p.png' source='22,0,33,11'" />
@@ -17,16 +17,16 @@
 	<VerticalLayout name="clearn_select_layout" height="90" padding="0,82,0,0">
 		<HorizontalLayout height="40">
 			<HorizontalLayout width="272" />
-			<Label name="ver_status" text="检查到新版本" font="40" textcolor="#ffffff" align="left" />
+			<Label name="ver_status" text="New version detected" font="40" textcolor="#ffffff" align="left" />
 		</HorizontalLayout>
 		<HorizontalLayout height="10" />
 		<HorizontalLayout height="20">
 			<HorizontalLayout width="272" />
-			<Label name="ner_ver" text="版本：3.0.1.1121" font="16" textcolor="#ffffff" align="left" />
+			<Label name="ner_ver" text="ver：3.0.1.1121" font="16" textcolor="#ffffff" align="left" />
 		</HorizontalLayout >
 		<HorizontalLayout height="20">
 			<HorizontalLayout width="228" />
-			<Button name="update_log" text="{u}查看更新日志{/u}" showhtml="true" font="15" textcolor="#ffffff" height="35" width="116" padding="30,0,0,0" normalimage="" hotimage="" pushedimage=""/>
+			<Button name="update_log" text="{u}View update log{/u}" showhtml="true" font="15" textcolor="#ffffff" height="35" width="116" padding="30,0,0,0" normalimage="" hotimage="" pushedimage=""/>
 		</HorizontalLayout>
 		
 	</VerticalLayout>
@@ -34,13 +34,13 @@
 	
 	<VerticalLayout name="btn_layout" valign="center" height="53" visible="false">
 		<VerticalLayout height="15"/>
-		<Button name="update" text="下载升级" textcolor="#444c58" font="14" height="38" width="116" align="center" />
-		<Button name="ok" text="我知道了" textcolor="#444c58" font="14" height="38" width="116" align="center" />
+		<Button name="update" text="Download upgrade" textcolor="#444c58" font="14" height="38" width="116" align="center" />
+		<Button name="ok" text="Ok" textcolor="#444c58" font="14" height="38" width="116" align="center" />
 	</VerticalLayout>
 	
 	<VerticalLayout name="progress_layout" valign="center" padding="10,0,0,0" height="38" width="580" visible="true">
 		<HorizontalLayout >
-			<Label text="正在下载更新包" textcolor="#8b94a5" font="15" width="110" align="left"/>
+			<Label text="Downloading update package" textcolor="#8b94a5" font="15" width="110" align="left"/>
 			<Label name="progress_para" textcolor="#8b94a5" text="0%" font="15" textcolor="#22a5f7" align="left" />
 		</HorizontalLayout >
 		

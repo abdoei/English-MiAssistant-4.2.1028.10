@@ -1,46 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>  
-<Window bktrans="true" size="125,200">  
+<Window bktrans="true" size="125,164">  
  <Font id="0" name="宋体" size="13" bold="false"/>
  <Font id="1" name="宋体" size="12"/>
 <VerticalLayout bkimage="file='imgs/bg_menu.png' source='2,5,114,157'">  
     <List bordercolor="#dcdee1" bordersize="9" header="hidden" inset="8,8,8,8" itemhotimage="file='imgs/menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#F2F2F2">  
         <ListContainerElement name="set_item" height="35" padding="1,1,1,1" inset="40,0,0,0">  
             <Control float="true" pos="15,10,29,24" bkimage="imgs/menu_set.png"/>
-			<Label text="设置" textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+			<Label text="Settings" textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
         </ListContainerElement>  
 		
 		<Control height="1" width="89" padding="11,0,0,0" bkimage="imgs/menu_sp.png"/>
 		
 		<ListContainerElement name="help_item" height="35" padding="1,0,1,0" inset="40,0,0,0" >  
 			<Control float="true" pos="15,10,29,24" bkimage="imgs/menu_help.png"/>
-            <Label text="帮助"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+            <Label text="Help"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
         </ListContainerElement>
 		
 		<Control height="1" width="89" padding="11,0,0,0" bkimage="imgs/menu_sp.png"/>
 		
         <ListContainerElement name="file_item" height="35" padding="1,0,1,0" inset="40,0,0,0" visible="false">  
 			<Control float="true" pos="15,10,29,24" bkimage="imgs/menu_update.png"/>
-            <Label text="文件管理" textcolor="#444c58" mouse="false"  padding="11,0,0,0"/>  
+            <Label text="File management" textcolor="#444c58" mouse="false"  padding="11,0,0,0"/>  
         </ListContainerElement>  
 		
 		<Control height="1" width="89" padding="11,0,0,0" bkimage="imgs/menu_sp.png" visible="false"/>
 		
         <ListContainerElement name="update_item" height="35" padding="1,0,1,0" inset="40,0,0,0">  
 			<Control float="true" pos="15,10,29,24" bkimage="imgs/menu_update.png"/>
-            <Label text="检查更新" textcolor="#444c58" mouse="false"  padding="11,0,0,0"/>  
+            <Label text="Check for updates" textcolor="#444c58" mouse="false"  padding="11,0,0,0"/>  
         </ListContainerElement>  
         
 		<Control height="1" width="89" padding="11,0,0,0" bkimage="imgs/menu_sp.png"/>
 		
 		<ListContainerElement name="about_item" height="35" padding="1,0,1,1" inset="40,0,0,0" >
 			<Control float="true" pos="15,10,29,24" bkimage="imgs/menu_about.png"/>
-            <Label text="关于我们"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
+            <Label text="about Us"  textcolor="#444c58" mouse="false" padding="11,0,0,0"/>  
         </ListContainerElement> 
 		
 		<Control height="1" width="89" padding="11,0,0,0" bkimage="imgs/menu_sp.png"/>
 		<ListContainerElement name="policy_item" height="35" padding="1,0,1,0" inset="40,0,0,0">  
 			<Control float="true" pos="15,11,30,21" bkimage="imgs/mi.png"/>
-            <Label text="隐私政策" textcolor="#444c58" mouse="false"  padding="11,0,0,0"/>  
+            <Label text="Privacy Policy" textcolor="#444c58" mouse="false"  padding="11,0,0,0"/>  
         </ListContainerElement>  
     </List>  
 </VerticalLayout> 

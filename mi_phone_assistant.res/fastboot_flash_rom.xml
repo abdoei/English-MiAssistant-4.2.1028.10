@@ -11,7 +11,7 @@
 		<VerticalLayout height="20" />
 		<HorizontalLayout height="30">
 			<HorizontalLayout width="200" />
-			<Label name="flash_status" text="正在刷机" width="200" align="right" font="22" height="30" textcolor="#444c58" />
+			<Label name="flash_status" text="Flashing in progress" width="200" align="right" font="22" height="30" textcolor="#444c58" />
 			<HorizontalLayout width="2" />
 			<VerticalLayout width="18" >
 				<VerticalLayout height="20" />
@@ -19,14 +19,14 @@
 			</VerticalLayout>
 		</HorizontalLayout >
 		<VerticalLayout height="10" />
-		<Label text="请勿断开手机连接" font="16" height="23" textcolor="#8b94a5" />
+		<Label text="Please do not disconnect the phone" font="16" height="23" textcolor="#8b94a5" />
 		<VerticalLayout height="30" />
 		<Label name="rom_name" text="rom" font="16" height="23" textcolor="#8b94a5" />
 		<VerticalLayout height="20" />
 		<Label name="flash_detail" text="detail" font="16" height="23" textcolor="#8b94a5" />
 
 		<VerticalLayout height="100" />
-		<Button text="刷机中" textcolor="#444c58" font="14" height="38" width="130" enabled="false"/>
+		<Button text="Flashing" textcolor="#444c58" font="14" height="38" width="130" enabled="false"/>
 	</VerticalLayout>
 	
 	<VerticalLayout name="flashed_layout" visible="false">
@@ -39,10 +39,10 @@
 			<VerticalLayout height="73" />
 			<Control bkimage="file='imgs/flash_err.png'" height="104" width="104" align="center" valign="center" />
 		</VerticalLayout>
-		<Label name="flash_result" text="刷机成功" font="32" height="33" align="center" valign="bottom" textcolor="#444c58" />
+		<Label name="flash_result" text="Flash successful" font="32" height="33" align="center" valign="bottom" textcolor="#444c58" />
 		<Label name="err_msg" text="" font="15" height="30" textcolor="#f16362" />
 		<VerticalLayout height="110" />
-		<Button name="finsh_btn" text="完成" textcolor="#444c58" font="14" height="38" width="130" padding="0,0,0,30"/>
+		<Button name="finsh_btn" text="Finish" textcolor="#444c58" font="14" height="38" width="130" padding="0,0,0,30"/>
 	</VerticalLayout>
   </VerticalLayout>
 </Window>

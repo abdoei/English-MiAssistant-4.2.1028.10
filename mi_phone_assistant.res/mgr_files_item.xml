@@ -37,7 +37,7 @@
 		<Label name="name" font="12" textcolor="#99000000" align="left" text="theme" padding="5,0,0,0"/>
 	</HorizontalLayout >
 	<Label name="size" font="12" align="left" textcolor="#99000000" width="130" text="43.34kb" width="18"/>
-	<Label name="type" font="12" align="left" textcolor="#99000000" width="130" text="文件夹" width="18"/>
+	<Label name="type" font="12" align="left" textcolor="#99000000" width="130" text="folder" width="18"/>
 	<Label name="time" font="12" align="left" textcolor="#99000000" width="50" text="1978-12-12 12:12" width="18"/>
 
   </ListHBoxElement>

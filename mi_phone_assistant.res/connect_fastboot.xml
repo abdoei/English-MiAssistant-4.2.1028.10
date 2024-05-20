@@ -3,7 +3,7 @@
   <Include source="style.xml" />
   <VerticalLayout >
 	  <VerticalLayout height="32" bkimage="imgs/bg_tip.png" padding="0,0,0,0">
-			<Label text="提示:刷机过程中请尽量临时关闭QQ以及其它手机助手类工具" height="32" textcolor="#ffb040" bkcolor="#fef0db" bordercolor="#fef0db"/>
+			<Label text="Note: Please temporarily close QQ and other phone assistant tools during the flashing process" height="32" textcolor="#ffb040" bkcolor="#fef0db" bordercolor="#fef0db"/>
 	  </VerticalLayout>
 	  <HorizontalLayout name="bg" bkimage="file='imgs/bg_big.png' source='2,140,900,600'" height="541">
 		<VerticalLayout  width="105"/>
@@ -14,39 +14,39 @@
 		<VerticalLayout  width="80"/>
 		<VerticalLayout  childalign="left" >
 			<VerticalLayout  height="125" />
-			<Label padding="22,0,0,0" text="设备已连接"  font="18" textcolor="#444c58" bold="true" align="left"/>
-			<Label padding="22,5,0,0" name="lock_st" text="设备未解锁" font="14" height="23" textcolor="#8b94a5" align="left"/>
+			<Label padding="22,0,0,0" text="Device Connected"  font="18" textcolor="#444c58" bold="true" align="left"/>
+			<Label padding="22,5,0,0" name="lock_st" text="Device not unlocked" font="14" height="23" textcolor="#8b94a5" align="left"/>
 
 			<VerticalLayout  height="13" />
 			<VerticalLayout name="unlock_layout" childalign="left" height="234" visible="true">
-				<Label name="rom_text" text="选择刷机包：" align="left" textcolor="#8b94a5" padding="20,0,0,0"/>
+				<Label name="rom_text" text="Select ROM package:" align="left" textcolor="#8b94a5" padding="20,0,0,0"/>
 				<HorizontalLayout height="30" padding="20,5,0,0">
 					<VerticalLayout width="450" height="30" bkimage="file='imgs/set_input.png'">
 						<Label name="bl_rom_path" text="" textcolor="#8b94a5" padding="12,0,12,0" align="left"/>
 					</VerticalLayout >
-					<Button name="select_rom" text="选择" width="60" height="30" textcolor="#8b94a5" padding="10,0,5,0" 
+					<Button name="select_rom" text="Select" width="60" height="30" textcolor="#8b94a5" padding="10,0,5,0" 
 					normalimage="file='imgs/btn_gray_set_n_click_p.png' source='0,0,116,30'" hotimage="file='imgs/btn_gray_set_n_click_p.png' source='116,0,232,30'" pushedimage="file='imgs/btn_gray_set_n_click_p.png' source='232,0,348,30'"/>
 				</HorizontalLayout>
-				<Label text="fastboot模式刷机后，会默认添加fastboot锁并清除数据" align="left" textcolor="#FF0000" padding="20,20,0,0"/>
+				<Label text="After flashing in fastboot mode, the fastboot lock will be added by default and data will be cleared" align="left" textcolor="#FF0000" padding="20,20,0,0"/>
 				<VerticalLayout childalign="left" height="54" width="200" padding="0,10,0,0" childalign="center" childvalign="center" bkimage="imgs/btn_blue_shadw.png" >
-					<Button name="fastboot_flash" text="开始刷机" font="14" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
+					<Button name="fastboot_flash" text="Start Flashing" font="14" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
 				</VerticalLayout>
 			</VerticalLayout>
 
 			<VerticalLayout name="lock_layout" childalign="left" height="234" visible="false">
 				<HorizontalLayout height="18" >
-					<Label text="请先解锁手机，详情访问" width="170" align="left" textcolor="#8b94a5" padding="20,0,0,0"/>
+					<Label text="Please unlock your phone first, for more details visit" width="170" align="left" textcolor="#8b94a5" padding="20,0,0,0"/>
 					<Button name="unlock_url_btn" text="{u}“www.miui.com/unlock”{/u}" showhtml="true" textcolor="#5f86e2" align="left" width="180" normalimage="" hotimage="" pushedimage="" />
 				</HorizontalLayout>
 				<VerticalLayout childalign="left" height="54" width="200" padding="0,30,0,0" childalign="center" childvalign="center" bkimage="imgs/btn_blue_shadw.png" >
-					<Button name="open_bl_tool" text="打开解锁工具" font="14" height="38" width="156" textcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'"/>
+					<Button name="open_bl_tool" text="Open Unlock Tool" font="14" height="38" width="156" textcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'"/>
 				</VerticalLayout>
 			</VerticalLayout>
 			
 			<VerticalLayout name="err_layout" childalign="left" height="234" visible="false">
-			<Label name="err_msg" text="基本信息错误" width="270" align="left" textcolor="#8b94a5" padding="20,0,0,0"/>
+			<Label name="err_msg" text="Basic information error" width="270" align="left" textcolor="#8b94a5" padding="20,0,0,0"/>
 				<HorizontalLayout height="18" >
-					<Label text="详细问题请查看" width="100" align="left" textcolor="#8b94a5" padding="20,0,0,0"/>
+					<Label text="For more details, please check" width="100" align="left" textcolor="#8b94a5" padding="20,0,0,0"/>
 					<Button name="err_url_btn" text="{u}“www.miui.com/unlock”{/u}" showhtml="true" textcolor="#5f86e2" align="left" width="180" normalimage="" hotimage="" pushedimage="" />
 				</HorizontalLayout>
 			</VerticalLayout>

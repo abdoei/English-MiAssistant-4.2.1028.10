@@ -16,12 +16,12 @@
 	<Control height="1" bkimage="imgs\sp_3.png"/>
 
 	<HorizontalLayout >
-		<TreeView name="file_tree" width="167" itemtextcolor="#009aa7bb" itemhottextcolor="#ff7e41" selitemtextcolor="#ff7e41" vscrollbar="true" hscrollbar="true" >
-			<TreeNode name="dev_node" text="      设备存储" font="13" height="16" padding="10,16,0,0" bkimage="file='imgs/ic_file_n_p.png' source='0,0,16,16' dest='24,0,40,16'" 
+		<TreeView name="file_tree" width="180" itemtextcolor="#009aa7bb" itemhottextcolor="#ff7e41" selitemtextcolor="#ff7e41" vscrollbar="true" hscrollbar="true" >
+			<TreeNode name="dev_node" text="Device storage" font="13" height="16" padding="25,16,0,0" bkimage="file='imgs/ic_file_n_p.png' source='0,0,16,16' dest='24,0,40,16'" 
 			folderattr="padding=&quot;0,4,0,0&quot; width=&quot;20&quot; height=&quot;10&quot; selected=&quot;true&quot; selectedimage=&quot;file='imgs/ic_1.png' dest='5,0,14,10' &quot; normalimage=&quot;file='imgs/ic_2.png' dest='5,0,15,9' &quot;">
 			</TreeNode>
 
-			<TreeNode name="add_for_bug" text="" font="13" height="16" padding="10,16,0,0" >
+			<TreeNode name="add_for_bug" text="" font="13" height="16" padding="25,16,0,0" >
 			</TreeNode>
 		</TreeView>
 		
@@ -30,23 +30,23 @@
 			<List name="dev_list" borderround="0" bordercolor="#ffffff" bkimage="file='imgs/bg_list_2.png' source='10,10,20,20'"
 			  itemalign="center" >
 			  <ListHeader height="40">
-				<HorizontalLayout width="330" chialign="left">
-					<Label text="名称" textcolor="#000000" font="13" width="30" padding="25,0,0,0" align="left,venter"/>
+				<HorizontalLayout width="350" chialign="left">
+					<Label text="Name" textcolor="#000000" font="13" width="50" padding="25,0,0,0" align="left,venter"/>
 					<CheckBox name="name_s" height="10" width="5" normalimage="file='imgs\ic_up_s.png'" selectedimage="file='imgs\ic_down_s.png'"/>
 				</HorizontalLayout >
 				
 				<HorizontalLayout width="147" chialign="left">
-					<Label text="大小" textcolor="#000000" font="13" width="30" align="left,venter"/>
+					<Label text="Size" textcolor="#000000" font="13" width="35" align="left,venter"/>
 					<CheckBox name="size_s" height="10" width="5" normalimage="file='imgs\ic_up_s.png'" selectedimage="file='imgs\ic_down_s.png'"/>
 				</HorizontalLayout >
 				
 				<HorizontalLayout width="50" chialign="left">
-					<Label text="类型" textcolor="#000000" font="13" width="30" align="left,venter"/>
+					<Label text="Type" textcolor="#000000" font="13" width="35" align="left,venter"/>
 					<CheckBox name="type_s" height="10" width="5" normalimage="file='imgs\ic_up_s.png'" selectedimage="file='imgs\ic_down_s.png'"/>
 				</HorizontalLayout >
 				
 				<HorizontalLayout chialign="left">
-					<Label text="日期" textcolor="#000000" font="13" width="30" align="left,venter"/>
+					<Label text="Date" textcolor="#000000" font="13" width="35" align="left,venter"/>
 					<CheckBox name="time_s" height="10" width="5" normalimage="file='imgs\ic_up_s.png'" selectedimage="file='imgs\ic_down_s.png'"/>
 				</HorizontalLayout >
 				
@@ -57,11 +57,11 @@
 			<HorizontalLayout height="47"  align="left" padding="0,0,0,0">
 				<HorizontalLayout height="30"  align="left" padding="0,8,0,0">
 					<CheckBox name="all_file" width="14" height="14" padding="25,8,2,8"/>
-					<Label text="全选" textcolor="#000000" width="30" height="18"/>
+					<Label text="Select all" textcolor="#000000" width="60" height="18"/>
 					
-					<Button name="leading_int" text="添加本地文件" width="120" height="30" padding="298,0,2,0" />
-					<Button name="leading_out" text="导出" width="76" height="30" padding="0,0,2,0"/>
-					<Button name="delete_file" text="删除" width="76" height="30" padding="0,0,2,0"/>
+					<Button name="leading_int" text="Add local files" width="120" height="30" padding="270,0,2,0" />
+					<Button name="leading_out" text="Export" width="76" height="30" padding="0,0,2,0"/>
+					<Button name="delete_file" text="Delete" width="76" height="30" padding="0,0,2,0"/>
 
 				</HorizontalLayout>
 			</HorizontalLayout>
@@ -71,7 +71,7 @@
 	
 	<Control height="1" bkimage="imgs\sp_3.png"/>
 	<HorizontalLayout height="33" >
-		<Label text="已选中:" font="12" width="55" height="18"/>
+		<Label text="Selected:" font="12" width="55" height="18"/>
 		<Label name="num" font="12" text="999" width="30" height="18"/>
 	</HorizontalLayout>
   </VerticalLayout>

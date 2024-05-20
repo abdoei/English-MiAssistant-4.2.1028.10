@@ -3,7 +3,7 @@
 	<Include source="style.xml" />
 	<VerticalLayout childalign="center" childvalign="vcenter" bkimage="file='imgs/dialog_bg.png' corner='3,35,3,3'">
 		<HorizontalLayout height="35" padding="5,0,5,5" childalign="right" >
-			<Label text="提示" font="16" align="left" padding="10,0,5,0"/>
+			<Label text="Prompt" font="16" align="left" padding="10,0,5,0"/>
 			
 			<Button name="closebtn" align="right" width="31" height="29" maxheight="29" maxwidth="31" normalimage="file='btns/light_close.png' source='0,0,31,29'" hotimage="file='btns/light_close.png' source='31,0,62,29'" pushedimage="file='btns/light_close.png' source='62,0,93,29'" />
 		</HorizontalLayout>
@@ -13,10 +13,10 @@
 		</VerticalLayout >
 		
 		<HorizontalLayout name="double_layout" height="32" padding="0,40,0,0" align="center">
-			<Button name="select_yes" text="确定" align="center" width="100" height="32" />
-			<Button name="select_no" text="取消" align="center" width="100" height="32"  />
+			<Button name="select_yes" text="Confirm" align="center" width="100" height="32" />
+			<Button name="select_no" text="Cancel" align="center" width="100" height="32"  />
 		</HorizontalLayout>
 		
-		<Button name="know" text="确定" align="center" width="100" height="32" padding="0,10,0,0" />
+		<Button name="know" text="Fix" align="center" width="100" height="32" padding="0,10,0,0" />
 	</VerticalLayout>
 </Window>

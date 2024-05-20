@@ -4,7 +4,7 @@
   <VerticalLayout name="bg" bkimage="file='imgs/bg_small.png'" childalign="center" align="center">
   	<HorizontalLayout height="35" padding="5,3,5,5" childalign="right" >
 		<Control height="13" width="20"  padding="10,0,0,0"/>
-		<Label text="小米助手" align="left" padding="5,0,5,0"/>
+		<Label text="Xiaomi assistant" align="left" padding="5,0,5,0"/>
 			
 		<Button name="closebtn" align="right" width="11" height="11" 
 		normalimage="file='imgs/close_n_click_p.png' source='0,0,11,11'" hotimage="file='imgs/close_n_click_p.png' source='11,0,22,11'" pushedimage="file='imgs/close_n_click_p.png' source='22,0,33,11'" />
@@ -17,13 +17,13 @@
 			<VerticalLayout height="76" />	
 			<Control bkimage="file='imgs/waring.png'" height="74" width="74"/>
 			<VerticalLayout height="18" />
-			<Label text="极速刷机会清除手机数据" font="18" textcolor="#444c58" />
+			<Label text="Extreme speed Flash to clear mobile phone data" font="18" textcolor="#444c58" />
 			
-			<Label text="清除数据，手机上的数据将丢失！确认继续清除数据吗？" font="14" height="20" textcolor="#8b94a5" />
+			<Label text="Clear the data and the data on the phone will be lost! Are you sure you want to continue clearing the data?" font="14" height="20" textcolor="#8b94a5" />
 			<VerticalLayout height="90" />
 			<HorizontalLayout childalign="center" height="38">
-				<Button name="first_yes" text="刷机" textcolor="#444c58" padding="193,0,0,0" font="13" height="38" width="116" align="center" />
-				<Button name="first_no" text="不刷机" textcolor="#444c58" padding="30,0,0,0" font="13" height="38" width="116" align="center" />
+				<Button name="first_yes" text="Flash Phone" textcolor="#444c58" padding="193,0,0,0" font="13" height="38" width="116" align="center" />
+				<Button name="first_no" text="Cancel" textcolor="#444c58" padding="30,0,0,0" font="13" height="38" width="116" align="center" />
 			</HorizontalLayout>
 		</VerticalLayout>
 		
@@ -32,13 +32,13 @@
 			<VerticalLayout height="76" />
 			<Control bkimage="file='imgs/waring.png'" height="74" width="74"/>
 			<VerticalLayout height="18" />
-			<Label text="确认要清除数据吗？" font="18" textcolor="#444c58" />
+			<Label text="Are you sure you want to clear the data?" font="18" textcolor="#444c58" />
 			
-			<Label text="清除数据，手机上的数据将丢失" font="14" height="20" textcolor="#8b94a5" />
+			<Label text="Clear data, data on your phone will be lost" font="14" height="20" textcolor="#8b94a5" />
 			<VerticalLayout height="90" />
 			<HorizontalLayout childalign="center" height="38">
-				<Button name="sec_yes" text="清除" textcolor="#444c58" padding="193,0,0,0" font="13" height="38" width="116" align="center" />
-				<Button name="sec_no" text="不清除" textcolor="#444c58" padding="30,0,0,0" font="13" height="38" width="116" align="center" />
+				<Button name="sec_yes" text="Clear" textcolor="#444c58" padding="193,0,0,0" font="13" height="38" width="116" align="center" />
+				<Button name="sec_no" text="Cancel" textcolor="#444c58" padding="30,0,0,0" font="13" height="38" width="116" align="center" />
 			</HorizontalLayout>
 		</VerticalLayout>
 		
@@ -49,11 +49,11 @@
 				<GifAnim float="true" bkimage="imgs/loading_op.gif" width="74" height="74"/>
 			</VerticalLayout>
 			<VerticalLayout height="18" />
-			<Label name="tip_one" text="清除数据中" font="18" textcolor="#444c58" />
+			<Label name="tip_one" text="Clear data" font="18" textcolor="#444c58" />
 			
-			<Label name="tip_two" text="请勿断开连接!" font="14" height="20" textcolor="#8b94a5" />
+			<Label name="tip_two" text="Do not disconnect!" font="14" height="20" textcolor="#8b94a5" />
 			<VerticalLayout height="90" />
-			<Button name="delete_ing_status" text="清除中" padding="30,0,0,0" font="14" height="38" width="116" align="center" enabled="false"/>
+			<Button name="delete_ing_status" text="Clearing status" padding="30,0,0,0" font="14" height="38" width="116" align="center" enabled="false"/>
 		</VerticalLayout>
 		
 		<!--删除数据失败 3-->
@@ -61,11 +61,11 @@
 			<VerticalLayout height="76" />
 			<Control bkimage="file='imgs/err.png'" height="74" width="74"/>
 			<VerticalLayout height="18" />
-			<Label text="清除数据失败!" font="18" textcolor="#444c58" />
+			<Label text="Failed to clear data!" font="18" textcolor="#444c58" />
 			
 			<Label text="" font="14" height="20" textcolor="#888888" />
 			<VerticalLayout height="90" />
-			<Button name="delete_err_back" text="完成" textcolor="#444c58" padding="30,0,0,0" font="13" height="38" width="116" align="center"/>
+			<Button name="delete_err_back" text="Carry out" textcolor="#444c58" padding="30,0,0,0" font="13" height="38" width="116" align="center"/>
 		</VerticalLayout>
 		
 		<!--重新连接快刷手机失败 4-->
@@ -73,11 +73,11 @@
 			<VerticalLayout height="76" />
 			<Control bkimage="file='imgs/err.png'" height="74" width="74"/>
 			<VerticalLayout height="18" />
-			<Label text="切换手机连接模式失败" font="18" textcolor="#444c58" />
+			<Label text="Switching phone connection mode failed" font="18" textcolor="#444c58" />
 			
-			<Label text="驱动安装失败" font="14" height="20" textcolor="#8b94a5" />
+			<Label text="Driver installation failed" font="14" height="20" textcolor="#8b94a5" />
 			<VerticalLayout height="90" />
-			<Button name="link_err_back" text="完成" textcolor="#444c58" padding="30,0,0,0" font="13" height="38" width="116" align="center"/>
+			<Button name="link_err_back" text="Carry out" textcolor="#444c58" padding="30,0,0,0" font="13" height="38" width="116" align="center"/>
 		</VerticalLayout>
 		
 		<!--选择刷机方式 5-->
@@ -88,22 +88,22 @@
 					<VerticalLayout height="20" />
 					<Button name="narmal_flash" padding="50,0,20,0" font="13" height="160" width="88" align="center" 
 					normalimage="file='imgs/flash.png' source='0,0,88,160'" hotimage="file='imgs/flash.png' source='88,0,176,160'" pushedimage="file='imgs/flash.png' source='176,0,264,160'"/>
-					<Label text="刷机" font="18" height="20" textcolor="#484e58" />
-					<Label text="保留用户数据刷机" padding="0,5,0,0" font="14" height="20" textcolor="#8b94a5" />
-					<Label text="支持MIUI8及以上版本" font="14" height="20" textcolor="#8b94a5" />
+					<Label text="Flash" font="18" height="20" textcolor="#484e58" />
+					<Label text="Keep user data and Flash" padding="0,5,0,0" font="14" height="20" textcolor="#8b94a5" />
+					<Label text="Support MIUI8 and MIUI9" font="14" height="20" textcolor="#8b94a5" />
 				</VerticalLayout>
 				<Control bkimage="file='imgs/flash_sp.png'" width="1"/>
 				<VerticalLayout  >
 					<VerticalLayout height="20" />
 					<Button name="fast_falsh" padding="20,0,0,0" font="13" height="160" width="88" align="center" 
 					normalimage="file='imgs/fast_flash.png' source='0,0,88,160'" hotimage="file='imgs/fast_flash.png' source='88,0,176,160'" pushedimage="file='imgs/fast_flash.png' source='176,0,264,160'"/>
-					<Label text="极速刷机" font="18" height="20" textcolor="#484e58" />
-					<Label text="清除用户数据，较普通刷机提速50%以上" padding="0,5,0,0" font="14" height="20" textcolor="#8b94a5" />
-					<Label text="支持MIUI9及以上版本" font="14" height="20" textcolor="#8b94a5" />
+					<Label text="Flash" font="18" height="20" textcolor="#484e58" />
+					<Label text="Clear user data, speed up than ordinary flash 50% above" padding="0,5,0,0" font="14" height="20" textcolor="#8b94a5" />
+					<Label text="Support MIUI9" font="14" height="20" textcolor="#8b94a5" />
 				</VerticalLayout>
 			</HorizontalLayout>
 			<VerticalLayout height="20" />
-			<Button name="assistant_help" align="left" text="{u}小米助手FAQ{/u}" showhtml="true" textcolor="#5f86e2" padding="0,0,0,0" font="13" height="30" width="80" normalimage="" hotimage="" pushedimage=""/>
+			<Button name="assistant_help" align="left" text="{u}Assistant FAQ{/u}" showhtml="true" textcolor="#5f86e2" padding="0,0,0,0" font="13" height="30" width="80" normalimage="" hotimage="" pushedimage=""/>
 			
 		</VerticalLayout>
 	</TabLayout>

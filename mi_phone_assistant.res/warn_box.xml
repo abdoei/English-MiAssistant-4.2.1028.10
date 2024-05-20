@@ -4,7 +4,7 @@
 	<VerticalLayout name="bg" bkimage="file='imgs/bg_small.png'" childalign="center" align="center">
 		<HorizontalLayout height="35" padding="5,3,5,5" childalign="right" >
 			<Control height="13" width="20"  padding="10,0,0,0"/>
-			<Label text="提示" align="left" padding="5,0,5,0"/>
+			<Label text="Prompt" align="left" padding="5,0,5,0"/>
 				
 			<Button name="closebtn" align="right" width="11" height="11" 
 			normalimage="file='imgs/close_n_click_p.png' source='0,0,11,11'" hotimage="file='imgs/close_n_click_p.png' source='11,0,22,11'" pushedimage="file='imgs/close_n_click_p.png' source='22,0,33,11'" />
@@ -20,16 +20,16 @@
 		<VerticalLayout height="80" />
 		
 		<VerticalLayout name="answer_layout" height="38" valign="center">
-			<Button name="answer_button" text="重新选择备份文件" align="center" width="140" height="32"  />
+			<Button name="answer_button" text="Reselect backup file" align="center" width="140" height="32"  />
 		</VerticalLayout>
 		
 		<VerticalLayout name="sigle_layout" height="38" valign="center">
-			<Button name="sigle_yes" text="确定" align="center" width="100" height="32"  />
+			<Button name="sigle_yes" text="YES" align="center" width="100" height="32"  />
 		</VerticalLayout>
 		
 		<HorizontalLayout name="double_layout" height="38" align="center" visible="false">
-			<Button name="double_yes" padding="193,0,30,0" text="确定" align="center" width="100" height="32" />
-			<Button name="double_no"  text="取消" align="center" width="100" height="32" />
+			<Button name="double_yes" padding="193,0,30,0" text="YES" align="center" width="100" height="32" />
+			<Button name="double_no"  text="Cancel" align="center" width="100" height="32" />
 		</HorizontalLayout>
 
 		

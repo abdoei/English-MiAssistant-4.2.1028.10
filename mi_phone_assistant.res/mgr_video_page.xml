@@ -3,9 +3,9 @@
   <Include source="style.xml" />
   <VerticalLayout  height="541">
     <HorizontalLayout height="40" bkimage="file='imgs/bg_paishelan.png'" >
-		<Option name="shoot_op" height="30" width="90" selected="true" group="video_options" text="拍摄(4)" textcolor="#9a9aa7" padding="30,0,0,0" font="12" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
-        <Option name="other_vid_op" height="30" width="90" group="video_options"  text="其它(4)" font="12" textcolor="#9a9aa7" padding="0,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
-		<Label name="limit_vid_tip" text="最多操作200部，更多操作请打开mtp直接管理文件" padding="340,12,0,0" font="12" textcolor="#9a9aa7" height="16"/>
+		<Option name="shoot_op" height="30" width="90" selected="true" group="video_options" text="Camera(4)" textcolor="#9a9aa7" padding="30,0,0,0" font="12" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
+        <Option name="other_vid_op" height="30" width="90" group="video_options"  text="Other(4)" font="12" textcolor="#9a9aa7" padding="0,0,0,0" bordersize="0" align="left,venter" selectedtextcolor="#ff7e41"/>
+		<Label name="limit_vid_tip" text="Most operations 200 files，Additional operation MTP direct management statement" padding="100,12,0,0" font="12" textcolor="#9a9aa7" height="16"/>
 	</HorizontalLayout>
 	<Control height="1" width="831" bkimage="imgs\sp_3.png"/>
 	
@@ -26,15 +26,15 @@
 	<HorizontalLayout height="47" bkimage="file='imgs/bg_paishelan.png' " >
 		<HorizontalLayout height="30"  align="left" padding="0,5,0,0">
             <CheckBox name="video_all" width="14" height="14" padding="29,8,2,8"/>
-			<Label text="全选" width="30" height="18"/>
+			<Label text="All video" width="90" height="18"/>
 			<Control width="2" height="18" padding="2,6,2,0" bkimage="imgs\sp_1.png"/>
-			<Label text="已选中" width="42" height="18"/>
+			<Label text="Selected" width="60" height="18"/>
 			<Label name="select_num" text="9999" textcolor="#ff7e41" width="33" height="18"/>
-			<Label text="部视频" align="left" width="80" height="18"/>
+			<Label text="Video" align="left" width="80" height="18"/>
 			
-			<Button name="leading_in" text="添加本地视频" font="12" width="120" height="30" padding="306,0,5,0" />
-			<Button name="leading_out" text="导出" font="12" width="76" height="30" padding="0,0,5,0" />
-			<Button name="delete_video" text="删除" font="12" width="76" height="30" padding="0,0,5,0" />
+			<Button name="leading_in" text="Add local video" font="12" width="120" height="30" padding="170,0,5,0" />
+			<Button name="leading_out" text="Export" font="12" width="76" height="30" padding="0,0,5,0" />
+			<Button name="delete_video" text="Delete" font="12" width="76" height="30" padding="0,0,5,0" />
          </HorizontalLayout>
     </HorizontalLayout>
   </VerticalLayout>
