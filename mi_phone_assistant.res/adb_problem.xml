@@ -3,17 +3,15 @@
   <Include source="style.xml" />
   <VerticalLayout name="bg" bkimage="file='imgs/bg_big.png' source='30,140,900,600'" >
 	<VerticalLayout height="90"/>
-	<Label text="请使用数据线连接您的设备" textcolor="#444c58" font="28" height="32"/>
+	<Label text="Please use a data cable to connect your device" textcolor="#444c58" font="28" height="32"/>
 	<VerticalLayout height="15"/>
-	<Label text="连接设备后，极速刷机，数据备份与恢复，文件管理，轻松掌控设备内容" textcolor="#8b94a5" height="18"/>
+	<Label text="After connecting the device, speed flashing, data backup and recovery, file management, easy control of device content" textcolor="#8b94a5" height="18"/>
 	<VerticalLayout height="30"/>
 	<Control bkimage="imgs/home_link.png" width="393" height="194" padding="0,9,10,0"/>
 	<VerticalLayout height="50"/>
-	<VerticalLayout childalign="left" height="54" width="200" childalign="center" childvalign="center" bkimage="imgs/btn_blue_shadw.png" >
-		<Button name="refurbish" text="连接设备" font="17" height="38" width="156" textcolor="#ffffff" disabledtextcolor="#ffffff" normalimage="file='imgs/btn_blue_n_click_p.png' source='0,0,156,38' corner='5,5,5,5'" hotimage="file='imgs/btn_blue_n_click_p.png' source='156,0,312,38' corner='5,5,5,5'" pushedimage="file='imgs/btn_blue_n_click_p.png' source='312,0,468,38' corner='5,5,5,5'" disabledimage="file='imgs/btn_blue_n_click_p.png' source='468,0,624,38' corner='5,5,5,5'"/>
-	</VerticalLayout>
+	<Button name="refurbish" align="center" text="Reconnect device" textcolor="#444c58" padding="0,0,0,0" font="15" height="35" width="200"/>
 	<VerticalLayout height="10"/>
-	<Button name="adb_help" align="left" text="{u}无法识别已连接手机？{/u}" showhtml="true" textcolor="#5f86e2" padding="0,0,0,0" font="14" height="30" width="150" normalimage="" hotimage="" pushedimage=""/>
+	<Button name="adb_help" align="left" text="{u}Unrecognized connected phone?{/u}" showhtml="true" textcolor="#5f86e2" padding="0,0,0,0" font="14" height="30" width="250" normalimage="" hotimage="" pushedimage=""/>
   </VerticalLayout>
 </Window>
 

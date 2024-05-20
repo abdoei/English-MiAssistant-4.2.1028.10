@@ -4,15 +4,15 @@
   <VerticalLayout name="bg" bkimage="file='imgs/bg_usb_debug.png' source='54,100,853,500'" childalign="center" align="center">
 	  <HorizontalLayout height="35" padding="5,0,5,5" childalign="right" >
 			<Control bkimage="file='imgs/mi_sec.png'" height="13" width="20"  padding="10,0,0,0"/>
-			<Label text="小米助手" align="left" padding="5,0,5,0"/>
+			<Label text="Xiaomi assistant" align="left" padding="5,0,5,0"/>
 				
 			<Button name="closebtn" align="right" width="11" height="11" 
 			normalimage="file='imgs/close_xiao_n_click_p.png' source='0,0,11,11'" hotimage="file='imgs/close_xiao_n_click_p.png' source='11,0,22,11'" pushedimage="file='imgs/close_xiao_n_click_p.png' source='22,0,33,11'" />
 			<HorizontalLayout width="11" />
 		</HorizontalLayout>
 		<VerticalLayout height="27"/>
-		<Label name="title_1" text="开启USB调试" textcolor="#444c58" font="19" height="32"/>
-		<Label name="title_2" text="请按照如下步骤打开USB调试" textcolor="#444c58" font="15" height="20"/>
+		<Label name="title_1" text="Turn on «USB debugging»" textcolor="#444c58" font="19" height="32"/>
+		<Label name="title_2" text="Please follow the steps below to enable «USB debugging»." textcolor="#444c58" font="15" height="20"/>
 		<VerticalLayout height="28"/>
 		<HorizontalLayout height="400" childvalign="top">
 			<HorizontalLayout width="48" height="235">
@@ -21,9 +21,9 @@
 			<VerticalLayout width="714" height="400">
 				<Control name="usb_pic" bkimage="imgs/USB_debug_1.png" height="235" width="714" padding="0,0,0,0"/>
 				<HorizontalLayout width="714" height="76" padding="0,10,0,0">
-					<RichEdit name="tip_1" text="进入设置-我的设备" textcolor="#444c58" align="left" width="238" backgroundtransparent="true" readonly="true" font="15" padding="0,0,0,0" />
-					<RichEdit name="tip_2" text="点击【全部参数】" textcolor="#444c58" align="left" width="238" backgroundtransparent="true" readonly="true" font="15" padding="5,0,0,0" />
-					<RichEdit name="tip_3" text="连续点击【MIUI版本】直至提示，“您现在处于开发者模式！”" textcolor="#444c58" align="left" width="238" backgroundtransparent="true" readonly="true" font="15" padding="5,0,0,0"/>
+					<RichEdit name="tip_1" text="Enter settings «About Phone»" textcolor="#444c58" align="left" width="238" backgroundtransparent="true" readonly="true" font="15" padding="0,0,0,0" />
+					<RichEdit name="tip_2" text="Click All specs" textcolor="#444c58" align="left" width="238" backgroundtransparent="true" readonly="true" font="15" padding="5,0,0,0" />
+					<RichEdit name="tip_3" text="Click MIUI version continuously until the prompt, «You are developer!»" textcolor="#444c58" align="left" width="238" backgroundtransparent="true" readonly="true" font="15" padding="5,0,0,0"/>
 				</HorizontalLayout >
 			</VerticalLayout>
 			

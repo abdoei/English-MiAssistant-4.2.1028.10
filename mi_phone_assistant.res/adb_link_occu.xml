@@ -5,11 +5,11 @@
 	<VerticalLayout height="86" />
 	<Control bkimage="file='imgs/waring.png'" height="74" width="74"/>
 	<VerticalLayout height="18" />
-	<Label text="检测到您的USB端口被以下程序占用，" font="18" textcolor="#444c58" />
-	<Label text="将其关闭方可正常连接手机" font="18" textcolor="#444c58" />
+	<Label text="Detected that your USB port is occupied by the following program，" font="18" textcolor="#444c58" />
+	<Label text="Turn it off to connect the phone normally" font="18" textcolor="#444c58" />
 	<Label name="pro_name" text="360.exe(181818)" height="20" textcolor="#8b94a5" padding="5,0,5,0"/>
 	<VerticalLayout height="60" />
-	<Button name="close_pro" text="好，关掉它" textcolor="#444c58" padding="30,0,0,0" font="14" height="38" width="116" align="center" />
+	<Button name="close_pro" text="Ok, turn it off" textcolor="#444c58" padding="30,0,0,0" font="14" height="38" width="116" align="center" />
 
   </VerticalLayout>
 </Window>

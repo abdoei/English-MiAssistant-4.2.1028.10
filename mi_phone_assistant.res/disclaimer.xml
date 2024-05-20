@@ -16,18 +16,18 @@
       </HorizontalLayout >
     </HorizontalLayout>
 	
-    <Label text="免责声明" height="35" align="center,venter" font="22" />
+    <Label text="Disclaimer" height="35" align="center,venter" font="22" />
     <VerticalLayout height="33" />
     <HorizontalLayout height="240">
       <HorizontalLayout />
       <RichEdit name="dlm_license" backgroundtransparent="true" readonly="true" font="14" padding="25,0,0,0" textcolor="#888888" width="700"  height="240" text="" vscrollbar="false" enabled="false"/>
       <HorizontalLayout />
     </HorizontalLayout>
-	<Label text="为了向您提供本功能服务，手机助手将收集您的手机型号、系统版本等信息用于系统升级服务，并依据我们的"  height="20" width="700" font="14" textcolor="#888888" padding="70,20,0,3"/>
+	<Label text="In order to provide you with this functional service, Mobile Assistant will collect your mobile phone model, system version and other information for system upgrade services, and based on our"  height="20" width="700" font="14" textcolor="#888888" padding="70,20,0,3"/>
     <HorizontalLayout height="20" padding="0,0,0,20">
-      <Label text="统一"  width="40" font="14" textcolor="#888888" padding="70,0,0,0"/>
-      <Button name="open_web" text="{u}《隐私条款》{/u}" showhtml="true" textcolor="#5f86e2" width="90" align="left" normalimage="" hotimage="" pushedimage=""/>
-      <Label text="处理和保护。您是否同意？"  width="300" align="left" font="14" textcolor="#888888" padding="1,0,0,0"/>
+      <Label text="unified"  width="50" font="14" textcolor="#888888" padding="70,0,0,0"/>
+      <Button name="open_web" text="{u}《Privacy Policy》{/u}" showhtml="true" textcolor="#5f86e2" width="120" align="left" normalimage="" hotimage="" pushedimage=""/>
+      <Label text="processing and protection. Do you agree?"  width="300" align="left" font="14" textcolor="#888888" padding="1,0,0,0"/>
     </HorizontalLayout>
 	<HorizontalLayout height="1">
       <HorizontalLayout />
@@ -39,17 +39,17 @@
 	   <VerticalLayout width="300">
 		<HorizontalLayout height="18"  padding="140,0,0,0" >
 			<CheckBox name="read_disclaimer" width="14" height="14" padding="0,2,2,2"/>
-            <Label text="已经阅读免责声明" width="120" height="18"/>
+            <Label text="Read the disclaimer" width="158" height="18"/>
         </HorizontalLayout>
 		<HorizontalLayout height="18"  padding="140,8,0,0">
 			<CheckBox name="read_privacy" width="14" height="14" padding="0,2,2,2"/>
-            <Label text="已经阅读隐私条款" width="120" height="18"/>
+            <Label text="Read the privacy policy" width="180" height="18"/>
             
         </HorizontalLayout>
       </VerticalLayout >
-      <Button name="dlm_agree" text="同意" font="14" width="143" normalimage="file='btns\common_btn.png' source='0,0,142,42'" hotimage="file='btns\common_btn.png' source='142,0,284,42'" pushedimage="file='btns\common_btn.png' source='284,0,426,42'" />
+      <Button name="dlm_agree" text="agree" font="14" width="143" normalimage="file='btns\common_btn.png' source='0,0,142,42'" hotimage="file='btns\common_btn.png' source='142,0,284,42'" pushedimage="file='btns\common_btn.png' source='284,0,426,42'" />
       <VerticalLayout width="15" />
-      <Button name="dlm_disagree" text="不同意" font="14" width="143" normalimage="file='btns\common_btn.png' source='0,0,142,42'" hotimage="file='btns\common_btn.png' source='142,0,284,42'" pushedimage="file='btns\common_btn.png' source='284,0,426,42'" />
+      <Button name="dlm_disagree" text="disagree" font="14" width="143" normalimage="file='btns\common_btn.png' source='0,0,142,42'" hotimage="file='btns\common_btn.png' source='142,0,284,42'" pushedimage="file='btns\common_btn.png' source='284,0,426,42'" />
       <VerticalLayout />
     </HorizontalLayout>
     <HorizontalLayout height="35" />
