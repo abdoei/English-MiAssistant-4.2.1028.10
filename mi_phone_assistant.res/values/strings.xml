@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">小米恢复模式刷机工具</string>
+  <string name="app_version_fmt">版本: %s</string>
+  <!-- net error code-->
+  <string name="net_error">网络异常</string>
+  <string name="code_xxxxx">未知错误[%d]</string>
+  <string name="code_2001">抱歉无法升级到非官方ROM包</string>
+  <string name="code_2002">ROM包处于内测中，请到论坛下载已发布ROM包</string>
+  <string name="code_2003">抱歉无法支持回退到非次新以前版本</string>
+  <string name="code_2004">开发版无法卡刷非最新的稳定版，请到论坛下载最新稳定版</string>
+  <string name="code_2005">稳定版无法卡刷非最新的开发版，请到论坛下载最新开发版</string>
+  <string name="code_2006">因内部原因，该ROM信息已经删除，请到论坛下载最新版本</string>
+  <string name="code_2007">当前版本非法，只能线刷到最新稳定版</string>
+  <string name="code_2008">无法跨安卓版本切换开发稳定版，请尝试Fastboot刷机解决</string>
+  <string name="code_2099">所选ROM包与当前连接手机型号不匹配，或其他原因</string>
+  <string name="code_2009">其他原因</string>
+  
+  <string name="code_10000">10000:请求参数错误</string>
+  <string name="code_10001">10001:签名验证失败</string>
+  <string name="code_10002">10002:相同IP请求过于频繁</string>
+  <string name="code_10003">10003:内部服务器错误</string>
+  <string name="code_10004">10004:请求超时</string>
+  
+  <string name="code_20030">不同设备的解锁间隔需要大于30天</string>
+  <string name="code_20031">账号与设备之间没有绑定关系</string>
+  <string name="code_20032">生成解锁所需的签名值失败</string>
+  <string name="code_20033">用户画像分数太低或者被拉黑</string>
+  <string name="code_20034">当前账号无法解锁此设备</string>
+  <string name="code_20035">请下载最新的解锁工具</string>
+  <string name="code_20036">账号与设备绑定时长太短,请%d小时以后再试</string>
+  <string name="code_20037">解锁次数已达上限</string>
+  
+  <string name="select_ota_rom">请选择卡刷包...</string>
+  <string name="ota_rom_filter">卡刷包</string>
+  
+  <string name="geting_screem">正在获取截屏</string>
+  <string name="geting_sn">正在获取sn</string>
+  
+  <string name="geting_base_info">正在获取手基本信息</string>
+  <string name="geting_split">正在验证手机是否处在分身状态下</string>
+  <string name="geting_app_ver">正在获取手机备份软件版本</string>
+  <string name="geting_resolution">正在获取手机分辨率</string>
+  <string name="geting_device_name">正在获取设备名</string>
+  
+  <string name="num_system_app">%d/%d个系统应用</string>
+  <string name="num_system_app_0">0/%d个系统应用</string>
+  <string name="num_system_app_0_0">0个系统应用</string>
+  <string name="num_app">%d/%d个三方应用</string>
+  <string name="num_app_0">0/%d个三方应用</string>
+  <string name="num_app_0_0">0个三方应用</string>
+  <string name="num_message">%d条短信</string>
+  <string name="num_message_0">0条短信</string>
+  <string name="num_contact">%d个联系人</string>
+  <string name="num_contact_0">0个联系人</string>
+  <string name="num_call_record">%d条通话记录</string>
+  <string name="num_call_record_0">0条通话记录</string>
+  <string name="num_pic">%d张图片</string>
+  <string name="num_pic_0">0张图片</string>
+  <string name="num_video">%d条视频</string>
+  <string name="num_video_0">0条视频</string>
+  <string name="num_music">%d首音乐</string>
+  <string name="num_music_0">0首音乐</string>
+  <string name="num_document">%d个文档</string>
+  <string name="num_document_0">0个文档</string>
+  
+  <string name="tool_tip_msg_1">备份时间因数据量而异，若手机数据较多，则备份时间较长，请耐心等待</string>
+  <string name="tool_tip_msg_2">若手机数据较多，则备份时间较长，请耐心等待</string>
+  
+  <string name="ready_backup_data">请备份当前手机数据</string>
+  <string name="reading_backup_data">正在读取手机的数据</string>
+  <string name="select_backup_data">请选择要备份的数据</string>
+  
+  <string name="selected_backup_data">已选择要备份的数据 %.2fGB</string>
+  <string name="had_backup_data">已完成 %.2fGB数据备份"</string>
+  <string name="will_need_backup_time">预计需要%d分钟</string>
+  <string name="need_backup_time">预计需要%d分钟</string>
+  
+  <string name="usb_page1_1">进入设置-我的设备</string>
+  <string name="usb_page1_2">点击【全部参数】</string>
+  <string name="usb_page1_3">连续点击【MIUI版本】直至提示，“您现在处于开发者模式！”</string>
+  
+  <string name="usb_page2_1">进入设置-更多设置</string>
+  <string name="usb_page2_2">点击【开发者选项】</string>
+  <string name="usb_page2_3">开启【USB调试】，提示如图，点击【确定】开启USB调试</string>
+  
+  <string name="usb_page3_1">开启【USB安装】</string>
+  <string name="usb_page3_2">此操作需要登录小米账号</string>
+  <string name="usb_page3_3">【USB安装】开启成功</string>
+  
+  <string name="usb_install_1">开启USB安装</string>
+  <string name="usb_install_2">请按照如下步骤打开USB安装</string>
+  
+  <string name="compressed_doc_err">压缩文件失败，请重新尝试！</string>
+  <string name="select_box_tip_1">三方应用数据设置</string>
+  <string name="select_box_tip_2">三方应用数据名称</string>
+  
+  <string name="bl_read_info_err">设备信息读取失败</string>
+  <string name="bl_read_lock_statu_err">读取解锁状态错误</string>
+  <string name="bl_device_lock">设备未解锁</string>
+  <string name="bl_device_unlock">设备已解锁</string>
+  
+  <string name="bl_flash_select_rom">选择刷机包：</string>
+  <string name="bl_flash_file_select_rom">选择ROM</string>
+  <string name="bl_flash_select_rom_err">L"无效刷机包请重新选择："</string>
+  
+  <string name="rec_cancell_download">确定要取消下载吗？</string>
+  <string name="rec_clearn_data_err">清除数据失败</string>
+  <string name="rec_clearn_data_succ">清除数据成功</string>
+  <string name="rec_removing_data">清除数据中</string>
+  <string name="rec_not_unconnect">请勿断开手机连接！</string>
+  <string name="rec_swich_mode">切换手机连接模式成功</string>
+  <string name="rec_will_flash">即将开始刷机</string>
+  
+  <string name="rec_will_flash_1">即将刷机</string>
+  <string name="rec_checking">正在校验</string>
+  <string name="rec_flashing">正在刷机</string>
+  <string name="rec_flash_succ">刷机成功</string>
+  <string name="rec_done">完成</string>
+  <string name="rec_flash_err">刷机失败</string>
+  
+  <string name="rec_err_msg_1">手机当前Recovery版本过低，工具暂不支持，请尝试其他方式升级</string>
+  <string name="rec_err_msg_2">连接异常，请重新进入Recovery模式进行刷机</string>
+  
+  <string name="rec_err_code">错误代码[%d]</string>
+  <string name="rec_back">返回</string>
+  
+  <string name="update_lastest_ver">已是最新版本</string>
+  <string name="update_check_ver">检查到新版本</string>
+  <string name="update_ver">版本：%s</string>
+  
+  <string name="sigle_warn_box_msg">启动连接手机服务失败，请重连接手机</string>
+  <string name="double_warn_box_title">请点击手机中确认按钮，授权操作</string>
+  <string name="double_warn_box_msg">若未见手机中提示，解锁手机后，点击确认按钮重新发送授权请求</string>
+  <string name="check_delete_msg">您确认要永久删除所选的%d项文件吗？</string>
+  
+  <string name="item_writting">等待中</string>
+  <string name="item_done">已完成</string>
+  <string name="item_restoring">正在恢复数据</string>
+  <string name="item_backup_100">正在备份%s(%d/%d)</string>
+  <string name="item_restore_100">正在还原%s(%d/%d)</string>
+  
+  <string name="backup_ing_no">备份尚未结束，确定要定停止备份吗？</string>
+  <string name="restore_ing_no">恢复尚未结束，确定要定停止恢复吗？</string>
+  <string name="connect_deivce">连接手机</string>
+  <string name="restore_ing_no_swicht">恢复尚未结束，确定要定停止恢复以切换页面吗？</string>
+  <string name="backup_ing_no_siwcht">备份尚未结束，确定要定停止备份以切换页面吗？</string>
+  <string name="close_and_update">是否关闭软件以完成升级？</string>
+  
+  <string name="user_err_msg_1">请切换到主空间进行备份/恢复操作</string>
+  <string name="user_err_msg_2">分身空间暂不支持使用小米助手备份</string>
+  <string name="guidance_err_msg">请完成开机引导后再进行备份/恢复操作</string>
+  
+  <string name="get_MD5_err">获取刷机包MD5失败</string>
+  <string name="recommend_rom_ver">推荐刷机包版本：%s</string>
+  <string name="current_rom_ver">当前刷机包：%s</string>
+  <string name="check_ver_err">最新版本查询失败</string>
+  <string name="last_ver">最新版本：%s</string>
+  <string name="current_ver">当前版本：%s</string>
+  <string name="is_last_ver">已经是最新版本</string>
+  
+  <string name="backup_select_err">所选备份文件无效，请重新选择。</string>
+  <string name="had_restore_data_100">已完成%.2fGB数据恢复</string>
+  <string name="restore_data_err">%.2fGB数据恢复失败</string>
+  <string name="select_restore_data">请选择要恢复的数据</string>
+  <string name="select_restore_date_type">请勾选所要恢复的数据种类</string>
+  <string name="had_select_restore_data">已选择要恢复的数据%.2fGB</string>
+  <string name="need_time">预计需要%d分钟</string>
+  
+  <string name="text_ver">小米助手：%sbeta</string>
+  
+  <string name="update_ing_tool">正在下载更新...   %d %%</string>
+  <string name="seletc_dir">选择文件夹</string>
+</resources>
